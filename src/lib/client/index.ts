@@ -1,6 +1,6 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
-import { ENV } from 'constpack';
+import { ENV } from '@/constpack';
 
 const { API_BASE_URL, API_REQUEST_TIMEOUT, OAUTH_BASIC_KEY } = ENV;
 
