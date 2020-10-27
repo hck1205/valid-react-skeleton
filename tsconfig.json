@@ -23,14 +23,9 @@
         "strictNullChecks": true,
         "downlevelIteration": true,
         "sourceMap": true,
-        "baseUrl": "src",
+        "baseUrl": ".",
         "paths": {
-            "components/*": ["components/*"],
-            "pages/*": ["pages/*"],
-            "lib/*": ["lib/*"],
-            "API/*": ["API/*"],
-            "assets/*": ["assets/*"],
-            "constpack/*": ["constpack/*"]
+            "@/*": ["src/*"]
         },
         "typeRoots": ["types", "node_modules/@types"]
     },
